@@ -1,0 +1,36 @@
+/* Custom Styles */
+.notification-message {
+    background-color: #FFF7E6;
+    border-left: 4px solid #F1B340;
+    font-weight: bold;
+}
+
+.reservation-card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+    font-size: 18px;
+    font-weight: 600;
+    color: #006F91;
+}
+
+.reservation-card-content {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.reserve-button {
+    width: 100%;
+    background-color: #E54B4B;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 10px 0;
+}
+
+.reserve-button:hover {
+    background-color: #d23c3c;
+}

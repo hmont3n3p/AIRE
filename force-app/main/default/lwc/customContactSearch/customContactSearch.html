@@ -1,0 +1,11 @@
+<template>
+  <div class="slds-grid slds-gutters">
+      <div class="slds-col">
+          <lightning-record-picker object-api-name="Contact" label="Contact" 
+            onchange={handleContactSelection} filter={filter} display-info={displayInfo} 
+            required="true">
+          </lightning-record-picker> 
+          <lightning-formatted-url value="https://aireancientbaths-dev-ed.develop.lightning.force.com/lightning/o/Contact/new?count=1"  label="New Contact" target="_blank"></lightning-formatted-url>
+      </div>
+  </div>
+</template>
